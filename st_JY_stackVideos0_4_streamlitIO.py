@@ -569,10 +569,12 @@ def main():
 if __name__=='__main__':
     # # set page config
     st.set_page_config(
-        page_title='Videos Side-by-Side Example',
+        page_title='Videos Side-by-Side',
         layout='centered',
     )
     main()
+    for i in range(14):
+       st.sidebar.markdown('')
     for i in range(18):
           st.markdown('')
 
